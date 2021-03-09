@@ -1,0 +1,18 @@
+a:hover, a:active{
+    background-color:#0066ff;
+}
+a:visited, a:link{
+    background-color:#5cd65c;
+    color:#ffffff;
+    padding:12px, 12px;
+    text-align:center;
+    display:inline-block;
+    text-decoration:none;
+}
+body{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("To The Girl Who Hasn't Been Herself Lately.jpg");
+
+}

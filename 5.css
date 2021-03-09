@@ -1,0 +1,16 @@
+table,th,td {
+    border:1px solid blueviolet;
+    border-collapse: collapse;
+    padding: 1px 1px ;
+    border-spacing: 0cm;
+    text-align: center;
+}
+#t1 tr :nth-child(even){
+    background-color: #ccccb3;
+}
+#t1 tr:nth-child(odd){
+    background-color: #ffb3ec;
+}
+#t1 th{
+    background-color: #b3ffb3;
+}
