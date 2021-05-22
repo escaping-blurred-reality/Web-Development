@@ -1,0 +1,16 @@
+console.log("This is the js file for creating, deleting and replacing elements ");
+ele = document.createElement('li');
+ele.className = 'myclass';
+ele.id = "unique";
+ele.innerText = "four";
+console.log(ele);
+ul = document.querySelector('ul.list');
+console.log(ul);
+ul.appendChild(ele);
+elem2 = document.createElement('h1');
+elem2.className = 'elem2';
+elem2.id = 'elem2';
+elem2.innerText = "This is heading";
+ele.replaceWith(elem2);
+let myui = document.getElementById('myui');
+myui.replaceChild(ele, document.getElementById('fui'));
