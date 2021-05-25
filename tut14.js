@@ -1,0 +1,17 @@
+console.log('This is the demonstration of Math Object');
+let x = 3;
+let y = 6;
+let z = Math;
+z = Math.PI;
+z = Math.E;
+z = Math.ceil(345.9085);
+z = Math.round(90.89);
+z = Math.floor(-1.2);
+z = Math.abs(-5 / 2);
+z = Math.sqrt(50011);
+z = Math.pow(3, 4);
+z = Math.min(23, 45, 232, 456, 95230);
+z = Math.max(23, 45, 232, 456, 95230);
+z = Math.random();
+z = parseInt(50 + (200 - 50) * Math.random());
+console.log(z);
