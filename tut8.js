@@ -6,10 +6,9 @@ let b=confirm("Are you sure you want to submit the solution");
 let c=innerHeight;
 let d=innerWidth;
 let e=location;
-//let f=location.reload();
+
 console.log(a);
 console.log(b);
 console.log(c);
 console.log(d);
 console.log(e);
-//console.log(f);
